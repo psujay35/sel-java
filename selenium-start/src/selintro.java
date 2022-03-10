@@ -7,7 +7,7 @@ public class selintro {
 		
 		//Invoking the browser
 		
-		System.setProperty("webdriver.chrome.driver","/Users/sujpa/eclipse-workspace/selenium-start/chromedriver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:/Users/sujpa/git/sel-java/selenium-start/chromedriver/chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver(); //ChromeDriver driver = new ChromeDriver();
 		driver.get("https://sujpa.qtestnet.com");
